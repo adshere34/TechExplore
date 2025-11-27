@@ -7,6 +7,7 @@ $(document).ready(function () {
         index = (index + 1) % slides;
         $(".banner-diapositivas").css("transform", `translateX(-${index * 100}%)`);
     }
+
     setInterval(cambiarSlide, 3000);
 
     $('#signup').on('submit', function(e){
@@ -25,4 +26,5 @@ $(document).ready(function () {
     });
 
 });
+
 
