@@ -1,16 +1,13 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    const slides = $('.banner-slides');
-    const total = slides.children().length;
     let index = 0;
+    const slides = $(".banner-diapositivas img").length;
 
-    function goTo(i){
-        slides.css('transform', 'translateX(' + (-i * 100) + '%)');
+    function cambiarSlide() {
+        index = (index + 1) % slides;
+        $(".banner-diapositivas").css("transform", `translateX(-${index * 100}%)`);
     }
-    setInterval(function(){
-        index = (index + 1) % total;
-        goTo(index);
-    }, 3000);
+    setInterval(cambiarSlide, 3000);
 
     $('#signup').on('submit', function(e){
         e.preventDefault();
@@ -28,3 +25,4 @@ $(document).ready(function(){
     });
 
 });
+
