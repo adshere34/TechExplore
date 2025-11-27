@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechExplore</title>
+
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="encabezado-sitio">
+        <div class="contenedor header-grid">
+            <div class="logo">Tech<span>Explore</span></div>
+        </div>
+
+        <div class="banner">
+            <div class="banner-diapositivas">
+                <img src="img/banner1.jpg" alt="banner1">
+                <img src="img/banner2.jpg" alt="banner2">
+                <img src="img/banner3.jpg" alt="banner3">
+            </div>
+
+            <div class="banner-texto">
+                Descubre el mundo de las computadoras con nosotros
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor grid-principal">
+
+        <section id="destinos" class="tarjeta">
+            <h2>Componentes destacados</h2>
+
+            <div class="fila-tarjetas">
+                <article class="item">
+                    <img src="img/pc1.jpg" alt="pc1">
+                    <h3>Tarjetas gráficas</h3>
+                    <p>Rendimiento para gaming y trabajo profesional.</p>
+                </article>
+
+                <article class="item">
+                    <img src="img/pc2.jpg" alt="pc2">
+                    <h3>Procesadores</h3>
+                    <p>Potencia y eficiencia para tus proyectos.</p>
+                </article>
+
+                <article class="item">
+                    <img src="img/pc3.jpg" alt="pc3">
+                    <h3>Almacenamiento SSD</h3>
+                    <p>Velocidad y confiabilidad para tus datos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="experiencias" class="tarjeta">
+            <h2>Tutoriales y Guías</h2>
+            <p>Guías paso a paso para montaje, optimización y reparación.</p>
+
+            <div class="tres-columnas">
+                <div class="columna">
+                    <h4>Montaje</h4>
+                    <p>Aprende a armar tu PC desde cero.</p>
+                </div>
+
+                <div class="columna">
+                    <h4>Mantenimiento</h4>
+                    <p>Métodos para alargar la vida útil del hardware.</p>
+                </div>
+
+                <div class="columna">
+                    <h4>Optimización</h4>
+                    <p>Mejora el rendimiento con ajustes y actualizaciones.</p>
+                </div>
+            </div>
+        </section>
+
+        <aside id="registro" class="tarjeta tarjeta-formulario">
+            <h2>Regístrate</h2>
+
+            <form id="signup">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <button type="submit">Registrarme</button>
+            </form>
+
+            <div id="msg" aria-live="polite"></div>
+        </aside>
+
+    </main>
+
+    <footer class="pie-sitio">
+        <div class="contenedor grid-pie">
+            <div>© 2025 TechExplore</div>
+
+            <div class="redes">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
