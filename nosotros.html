@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>TechHardware | Nosotros</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menuScroll" data-bs-offset="100">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<div class="container">
+  <a class="navbar-brand fw-bold" href="index.html">
+    TechHardware
+  </a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav ms-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="nosotros.html">Nosotros</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="tienda.html">Tienda</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          Más
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li>
+            <a class="dropdown-item" href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="noticias.html">Noticias</a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+</div>
+</nav>
+
+<main class="container mt-5 pt-5">
+
+  <h1 class="text-center my-4">Nuestra Organización</h1>
+
+  <div class="row">
+
+    <aside class="col-md-4">
+      <div id="menuScroll" class="list-group sticky-top">
+        <a class="list-group-item list-group-item-action active" href="#historia">Historia</a>
+        <a class="list-group-item list-group-item-action" href="#vision">Visión</a>
+        <a class="list-group-item list-group-item-action" href="#filosofia">Filosofía</a>
+      </div>
+
+      <button class="btn btn-primary w-100 my-3" data-bs-toggle="collapse" data-bs-target="#extraInfo">
+        Leer más info
+      </button>
+
+      <div class="collapse" id="extraInfo">
+        <div class="card card-body">
+          Tambien hacemos reparaciones de dispositivos dañados, equipos, laptos.
+        </div>
+      </div>
+    </aside>
+
+    <section class="col-md-8 border rounded p-4" style="height:400px; overflow-y:auto;">
+
+      <section id="historia" class="mb-5">
+        <h4>Historia</h4>
+        <p>
+          TechHardware fue fundada con los principios de Bootstrap y el diseño web moderno.
+          Somos especialistas en componentes de hardware como procesadores, tarjetas gráficas,
+          memorias RAM y almacenamiento.
+        </p>
+        <p>
+          Desde 2015 trabajamos brindando soluciones tecnológicas tanto para gamers como para
+          profesionales.
+        </p>
+      </section>
+
+      <section id="vision" class="mb-5">
+        <h4>Visión</h4>
+        <p>
+          Ser líderes en la venta y asesoría de hardware para computadoras, ofreciendo productos
+          de alto rendimiento y calidad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus unde magnam consequuntur beatae voluptatum ratione in. Optio quasi magnam, dolor numquam, quibusdam odit corporis, delectus laboriosam error esse libero. Aperiam provident vel itaque voluptatem architecto quod sint ducimus sit dolores molestiae maiores, sapiente esse praesentium non similique nobis quasi totam.
+        </p>
+      </section>
+
+      <section id="filosofia" class="mb-5">
+        <h4>Filosofía</h4>
+        <p>
+          Creemos en la innovación, el aprendizaje constante y el uso de tecnologías modernas
+          para ofrecer la mejor experiencia al usuario. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae libero magni cupiditate maxime obcaecati explicabo repellat quasi excepturi ratione dolorem! Delectus ad eius enim minus laborum voluptatibus id. Odio assumenda deserunt maiores non! Saepe ad fuga porro aperiam natus corporis animi numquam placeat eaque. Delectus ipsum perferendis unde ea sunt?
+        </p>
+      </section>
+
+    </section>
+  </div>
+
+  <section class="mt-5">
+    <h3>Preguntas Frecuentes (Acordeón)</h3>
+
+    <div class="accordion" id="faq">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            ¿Qué es la GPU?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            La <strong>GPU</strong> es un circuito electrónico especializado que acelera la creación de imágenes y videos
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+            ¿Qué es el memoria RAM?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            componente de almacenamiento temporal y volátil de una computadora que guarda los datos que el procesador (CPU) necesita inmediatamente para ejecutar programas y tareas
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-dark text-light mt-5 pt-4">
+  <div class="container text-center">
+    <p class="mb-2">Curso de Diseño y Desarrollo Web</p>
+
+    <div class="mb-2">
+      <i class="bi bi-instagram fs-4 mx-2"></i>
+      <i class="bi bi-youtube fs-4 mx-2"></i>
+      <i class="bi bi-tiktok fs-4 mx-2"></i>
+    </div>
+
+    <p class="small mb-0">Evaluación Integral ISIL © 2025-II</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
